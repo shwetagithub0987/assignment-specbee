@@ -1,0 +1,33 @@
+global-styling:
+  css:
+    theme:
+      css/styles.css: {}
+
+  js:
+    js/scripts.js: {}
+  dependencies:
+    - core/jquery
+    - mytheme/slick-carousel
+
+slick-carousel:
+  js:
+    https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js: { type: external }
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css: {}
+      https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css: {}
+  dependencies:
+    - core/jquery
+    
+google-fonts:
+  css:
+    theme:
+      https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap: {}
+  dependencies:
+    - core/jquery
+
+
+
+   
+
+   

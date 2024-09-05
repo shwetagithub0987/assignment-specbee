@@ -1,0 +1,10 @@
+name: 'My Theme'
+type: theme
+description: 'A theme for my Drupal site.'
+core_version_requirement: ^8 || ^9 || ^10
+base theme: stable
+
+libraries:
+  - 'mytheme/global-styling'
+  - 'mytheme/slick-carousel'
+  - 'mytheme/google-fonts'
